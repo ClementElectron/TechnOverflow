@@ -1,0 +1,265 @@
+/*
+ * W3C CSS3 validator: https://jigsaw.w3.org/css-validator/
+ * No error found!
+ */
+
+/********************************************************************
+ * FONTS
+ ********************************************************************/
+
+@font-face
+{
+    font-family: 'MyRegularCourierFont';
+    src: url('fonts/texgyrecursor-regular-webfont.eot');
+    src: url('fonts/texgyrecursor-regular-webfont.eot?iefix') format('eot'),
+         url('fonts/texgyrecursor-regular-webfont.woff') format('woff'),
+         url('fonts/texgyrecursor-regular-webfont.ttf') format('truetype'),
+         url('fonts/texgyrecursor-regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{
+    font-family: 'MyBoldCourierFont';
+    src: url('fonts/texgyrecursor-bold-webfont.eot');
+    src: url('fonts/texgyrecursor-bold-webfont.eot?iefix') format('eot'),
+         url('fonts/texgyrecursor-bold-webfont.woff') format('woff'),
+         url('fonts/texgyrecursor-bold-webfont.ttf') format('truetype'),
+         url('fonts/texgyrecursor-bold-webfont.svg#webfont') format('svg');
+}
+
+/*@font-face
+{
+    font-family: 'MyItalicCourierFont';
+    src: url('fonts/texgyrecursor-italic-webfont.eot');
+    src: url('fonts/texgyrecursor-italic-webfont.eot?iefix') format('eot'),
+         url('fonts/texgyrecursor-italic-webfont.woff') format('woff'),
+         url('fonts/texgyrecursor-italic-webfont.ttf') format('truetype'),
+         url('fonts/texgyrecursor-italic-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{
+    font-family: 'MyBoldItalicCourierFont';
+    src: url('fonts/texgyrecursor-bolditalic-webfont.eot');
+    src: url('fonts/texgyrecursor-bolditalic-webfont.eot?iefix') format('eot'),
+         url('fonts/texgyrecursor-bolditalic-webfont.woff') format('woff'),
+         url('fonts/texgyrecursor-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/texgyrecursor-bolditalic-webfont.svg#webfont') format('svg');
+}*/
+
+@font-face
+{
+    font-family: 'MyRegularModernFont';
+    src: url('fonts/lmsans10-regular-webfont.eot');
+    src: url('fonts/lmsans10-regular-webfont.eot?iefix') format('eot'),
+         url('fonts/lmsans10-regular-webfont.woff') format('woff'),
+         url('fonts/lmsans10-regular-webfont.ttf') format('truetype'),
+         url('fonts/lmsans10-regular-webfont.svg#webfont') format('svg');
+}
+
+/*@font-face
+{
+    font-family: 'MyBoldModernFont';
+    src: url('fonts/lmsans10-bold-webfont.eot');
+    src: url('fonts/lmsans10-bold-webfont.eot?iefix') format('eot'),
+         url('fonts/lmsans10-bold-webfont.woff') format('woff'),
+         url('fonts/lmsans10-bold-webfont.ttf') format('truetype'),
+         url('fonts/lmsans10-bold-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{
+    font-family: 'MyItalicModernFont';
+    src: url('fonts/lmsans10-oblique-webfont.eot');
+    src: url('fonts/lmsans10-oblique-webfont.eot?iefix') format('eot'),
+         url('fonts/lmsans10-oblique-webfont.woff') format('woff'),
+         url('fonts/lmsans10-oblique-webfont.ttf') format('truetype'),
+         url('fonts/lmsans10-oblique-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{
+    font-family: 'MyBoldItalicModernFont';
+    src: url('fonts/lmsans10-boldoblique-webfont.eot');
+    src: url('fonts/lmsans10-boldoblique-webfont.eot?iefix') format('eot'),
+         url('fonts/lmsans10-boldoblique-webfont.woff') format('woff'),
+         url('fonts/lmsans10-boldoblique-webfont.ttf') format('truetype'),
+         url('fonts/lmsans10-boldoblique-webfont.svg#webfont') format('svg');
+}*/
+
+/********************************************************************
+ * MAIN
+ ********************************************************************/
+
+#particles-js
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#materialModal h1
+{
+    font-size: 25px;
+}
+
+code
+{
+    font-family: 'MyRegularCourierFont', "Courier New", monospace;
+}
+
+.center
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: 'MyRegularModernFont', arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+h1
+{
+    font-family: 'MyBoldCourierFont', "Courier New", monospace;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #000080; /* Navy */
+    text-shadow: 1px 1px 3px #C0C0C0; /* Silver */
+    font-variant: small-caps;
+}
+
+h2
+{
+    font-family: 'MyBoldCourierFont', "Courier New", monospace;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+section
+{
+    max-width: 650px;
+    min-width: 300px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #000080; /* Navy */
+    border-radius: 4px;
+    background-color: white;
+}
+
+.justify
+{
+    text-align: justify;
+}
+
+footer p
+{
+    text-align: center;
+    margin-top: -28px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+footer p a
+{
+    color: gray !important;
+}
+
+footer p a:hover, footer p a:focus
+{
+    color: white !important;
+}
+
+a
+{
+    color: #4169E1; /* RoyalBlue */
+    text-decoration: none;
+}
+
+button
+{
+    font-family: 'MyRegularModernFont', arial, sans-serif;
+    background-color: #F5F5F5; /* WhiteSmoke */
+    border: 1px solid #DCDCDC; /* Gainsboro */
+    border-radius: 4px;
+    padding: 1px 4px 1px 3px;
+    color: #4169E1; /* RoyalBlue */
+    font-size: 15px;
+    cursor: copy; /* The cursor indicates something is to be copied. */
+}
+
+/********************************************************************
+ * CONTACT ME
+ ********************************************************************/
+
+ul.contact-list
+{
+    list-style: none;
+}
+
+ul.contact-list li
+{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.icon-email, .icon-linkedin, .icon-twitter, .icon-500px, .icon-github, .icon-keybase, .icon-signal
+{
+    /* A single image to reduce server requests. */
+    background-image: url("images/social-networks.png");
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.icon-email
+{
+    background-position: 0 -0px;
+}
+
+.icon-linkedin
+{
+    background-position: 0 -30px;
+}
+
+.icon-twitter
+{
+    background-position: 0 -60px;
+}
+
+.icon-500px
+{
+    background-position: 0 -90px;
+}
+
+.icon-github
+{
+    background-position: 0 -120px;
+}
+
+.icon-keybase
+{
+    background-position: 0 -150px;
+}
+
+.icon-signal
+{
+    height: 34px; /* CSS3 validator warning: redefinition of height. */
+    margin-top: 0; /* CSS3 validator warning: redefinition of margin-top. */
+    background-position: 0 -180px;
+}

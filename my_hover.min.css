@@ -1,0 +1,14 @@
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.1.0
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
+ */
+ .hvr-box-shadow-outset,.hvr-shutter-out-vertical{display:inline-block;box-shadow:0 0 1px transparent}.hvr-shutter-out-vertical{-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);position:relative;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.2s;transition-duration:.2s}.hvr-shutter-out-vertical:before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:0;right:0;background-color:#00BFFF;-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:50%;transform-origin:50%;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}.hvr-shutter-out-vertical:active,.hvr-shutter-out-vertical:focus,.hvr-shutter-out-vertical:hover{color:#fff}.hvr-shutter-out-vertical:active:before,.hvr-shutter-out-vertical:focus:before,.hvr-shutter-out-vertical:hover:before{-webkit-transform:scaleY(1);transform:scaleY(1)}.hvr-box-shadow-outset{-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:box-shadow;transition-property:box-shadow}.hvr-box-shadow-outset:active,.hvr-box-shadow-outset:focus,.hvr-box-shadow-outset:hover{box-shadow:2px 2px 2px rgba(0,0,0,.6)}
+ 
