@@ -11,7 +11,7 @@ Specifications
 * Privacy friendly.
 * NoScript friendly.
 * Do not need SQL.
-* Easy to be hosted (PHP with *basic* functions).
+* Easy to host (PHP with *basic* functions).
 * Under 3-Clause BSD licence.
 
 Requirements
@@ -23,7 +23,7 @@ Requirements
 Notice
 ------
 
-Remember to [minifie](http://refresh-sf.com/ "Minifier web based tool.") CSS and JS. 
+Remember to [minifie](https://javascript-minifier.com/ "Minifier web based tool.") CSS and JS. 
 Minified files must be more recent than the originals.
 
 Create your *.htaccess* in order to:

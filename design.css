@@ -1,6 +1,7 @@
 /*
  * W3C CSS3 validator: https://jigsaw.w3.org/css-validator/
  * No error found!
+ * Minifier: https://cssminifier.com/
  */
 
 /********************************************************************
@@ -216,7 +217,7 @@ ul.contact-list li
     margin-bottom: 5px;
 }
 
-.icon-email, .icon-linkedin, .icon-twitter, .icon-500px, .icon-github, .icon-keybase, .icon-signal
+.icoeml, .icolnk, .icotwi, .ico5px, .icogit, .icokey
 {
     /* A single image to reduce server requests. */
     background-image: url("images/social-networks.png");
@@ -227,39 +228,32 @@ ul.contact-list li
     margin-top: -4px;
 }
 
-.icon-email
+.icoeml
 {
     background-position: 0 -0px;
 }
 
-.icon-linkedin
+.icolnk
 {
     background-position: 0 -30px;
 }
 
-.icon-twitter
+.icotwi
 {
     background-position: 0 -60px;
 }
 
-.icon-500px
+.ico5px
 {
     background-position: 0 -90px;
 }
 
-.icon-github
+.icogit
 {
     background-position: 0 -120px;
 }
 
-.icon-keybase
+.icokey
 {
     background-position: 0 -150px;
-}
-
-.icon-signal
-{
-    height: 34px; /* CSS3 validator warning: redefinition of height. */
-    margin-top: 0; /* CSS3 validator warning: redefinition of margin-top. */
-    background-position: 0 -180px;
 }

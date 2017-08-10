@@ -2,6 +2,7 @@
 /* MODIFIED! DO NOT OVERWRITE! */
 
 #materialModal{
+    visibility: hidden; /* Hide to avoid side effect when JS is disabled. */
 	position:absolute;
 	top:0px;
 	left:0px;

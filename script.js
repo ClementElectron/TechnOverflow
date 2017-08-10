@@ -26,6 +26,10 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
+ 
+/*
+ * Minifier: https://javascript-minifier.com/
+ */
 
 /// Seconds before calling the PHP script.
 var secondsBeforeAddingLogEntry = 5;
@@ -209,7 +213,9 @@ function waitAndGoHome()
  */
 function materialAlert(title, text, callback)
 {
-    document.getElementById('materialModal').className = 'show';
+    var materialModal = document.getElementById("materialModal");
+    updateTopPosition(materialModal);
+    materialModal.className = "show";
 }
 
 /**
@@ -218,8 +224,7 @@ function materialAlert(title, text, callback)
 function closeMaterialAlert(e, result)
 {
     e.stopPropagation();
-    document.getElementById('materialModal').className = 'hide';
-    resetMaterialModalHeight();
+    document.getElementById("materialModal").className = "hide";
 }
 
 /**
@@ -261,14 +266,6 @@ function updateTopPosition(el)
     {
         el.style.top = getPageOffset() + "px";
     }
-}
-
-/**
- * Reset the Privacy Policy popup position.
- */
-function resetMaterialModalHeight()
-{
-    document.getElementById("materialModal").style.top = "0";
 }
 
 /**
@@ -377,7 +374,9 @@ window.onload = function()
     
     getWindowSize();
     createFingerprintCopyButton();
-    updateTopPosition(document.getElementById("materialModal"));
+    var materialModal = document.getElementById("materialModal");
+    materialModal.style.visibility = "visible";
+    updateTopPosition(materialModal);
     loadParticles();
     centerMainBodySmartly();
 }
@@ -390,7 +389,7 @@ window.onresize = function()
     getWindowSize();
     centerMainBodySmartly();
     updateTopPosition(document.getElementById("materialModal"));
-    loadParticles();
+    updateTopPosition(document.getElementById("particles-js"));
 }
 
 /**
@@ -399,7 +398,7 @@ window.onresize = function()
 window.onscroll = function()
 {
     updateTopPosition(document.getElementById("materialModal"));
-    loadParticles();
+    updateTopPosition(document.getElementById("particles-js"));
 }
 
 /**

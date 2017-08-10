@@ -63,13 +63,13 @@ if(empty($_GET['key']) || htmlspecialchars($_GET['key']) != '3s2o5sALyNORreaZK4w
             document.write('<footer><p><a href="#" title="Show the privacy policy." onclick="materialAlert();return false;" class="hvr-shutter-out-vertical">Privacy Policy</a></p></footer>');
         </script>
         <div id="materialModal" onclick="closeMaterialAlert(event, false)" class="hide">
-			<div id="materialModalCentered">
-				<div id="materialModalContent" onclick="event.stopPropagation()">
-					<h1>Privacy Policy</h1>
-					<p id="materialModalText" class="justify">Your IP address and the date time are saved in a database I own. I don't mind who you are and I respect your privacy, I don't track you. I just like to know how many visitors are reading this website day after day. If you don't want your IP address to be remembered in the future, just disable JavaScript, you won't have any problem reading this page without JS.</p>
-					<div id="materialModalButtons"><button id="materialModalButtonOK" class="materialModalButton hvr-box-shadow-outset" onclick="closeMaterialAlert(event, true)">OK</button></div>
-				</div>
-			</div>
-		</div>
+            <div id="materialModalCentered">
+                <div id="materialModalContent" onclick="event.stopPropagation()">
+                    <h1>Privacy Policy</h1>
+                    <p id="materialModalText" class="justify">Your IP address and the date time are saved in a database I own. I don't mind who you are and I respect your privacy, I don't track you. I just like to know how many visitors are reading this website day after day. If you don't want your IP address to be remembered in the future, just disable JavaScript, you won't have any problem reading this page without JS.</p>
+                    <div id="materialModalButtons"><button id="materialModalButtonOK" class="materialModalButton hvr-box-shadow-outset" onclick="closeMaterialAlert(event, true)">OK</button></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
